@@ -1,0 +1,198 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-menu > li {
+    margin-left: 22px;
+  }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-menu {
+    margin: 3px -15px 0 0;
+  }
+  .main-menu > li {
+    margin-left: 11px;
+  }
+  .main-menu > li > a {
+    font-size: 16px;
+  }
+  .modal-dialog {
+    width: 100%;
+  }  
+  .fun-facts-padding {
+    padding: 40px 0 20px;
+    display: block;
+    text-align: center;
+  } 
+  .single-facts {
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  .resume-name h4 {
+    font-size: 16px;
+  }
+  .contact-form {
+    padding-right: 0;
+  }
+  .contact-info {
+    padding-left: 10px;
+  }
+  
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) { 
+  .navbar-default {
+    padding-top: 15px;
+  }
+  .modal-dialog {
+    width: 100%;
+  }
+  .modal-content.padding {
+    padding: 40px 5px 20px;
+  }
+  .modal-header .close {
+    margin-right: -14px;
+  }
+  .navbar-toggle {
+    margin-top: -5px;
+  }
+  .main-menu {
+    margin: -5px -15px 0 0;
+    padding: 15px 0px 22px;
+    background-color: #22313f;
+  }
+  .main-menu > li {
+    float: none;
+    margin-left: 18px;
+    margin-top: 5px;
+    display: block;
+  }
+  #sectionIntro {
+    background-position: -60% 100%;
+  }
+  .personal-info h3 {
+    margin-top: 0;
+  }
+  .hi h1 {
+    font-size: 50px;
+  }
+  .personal-desc {
+    padding-top: 25px;
+  }
+  .fun-facts-area {
+    margin-top: 50px;
+  }
+  .fun-facts-padding {
+    padding: 40px 0 20px;
+    display: block;
+    text-align: center;
+  }
+  .single-facts {
+    width: 180px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  .single-facts > .icon {
+    margin-left: 0;
+  }
+  .single-facts > h4 {
+    margin-left: 100px;
+  }
+  .resume-name {
+    padding: 0 15px;
+  }
+  .resume-name > li {
+    width: 95%;
+  }
+  .resume h3 {
+    margin-top: 0;
+  }
+  .resume.edu {
+    margin-top: 60px;
+  }
+  .resume-name h4 {
+    font-size: 18px;
+  }
+  .ff-container label {
+    width: 50%;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  .lb-overlay:target {
+    padding: 50px 10px 190px;
+  }
+  .lb-overlay > div {
+    width: 100%;
+  }
+  .lb-overlay div h3, 
+  .lb-overlay div p {
+    width: 100%;
+  }
+  .lb-overlay div h3 {
+    margin-top: 20px;
+    text-align: center;
+    border-right: 0;
+    height: 40px;
+  }
+  .single-feature:before {
+    border: 0;
+  }
+  .single-feature:nth-last-child(n+2):after {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    height: 1px;
+    content: '';
+    opacity: .2;
+    border: 1px solid #22313f;
+  }
+  .blog-post.margin-mobile {
+    margin-top: 50px;
+  }
+  .para-quote {
+    padding: 20px 40px;
+  }
+  .para-quote::before {
+    left: 0;
+  }
+  .post-comments, 
+  .leave-comments {
+    padding: 0 10px;
+  }
+  .post-comments ul.comment-list {
+    padding-left: 20px;
+  }
+  .post-comments h4, 
+  .leave-comments h4 {
+    font-size: 15px;
+  }
+  .back-btn {
+    margin-bottom: 60px;
+  }
+  .contact-form {
+    padding-right: 0;
+  }
+  .contact-info {
+    padding-left: 0;
+    margin-top: 50px;
+  }
+  .contact-info h3 {
+    font-size: 22px;
+  }
+  .social-links li {
+    margin: 0 3px;
+  }
+
+}
+ 
+/* Large Mobile :480px. */
+@media (min-width: 480px) and (max-width: 767px) {
+  .resume-name > li {
+    width: 90%;
+  }	
+ 
+}
