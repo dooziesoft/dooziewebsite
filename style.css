@@ -239,7 +239,7 @@ textarea:focus {
 }
 
 .modal-header {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   border-bottom: 0;
 }
 
@@ -517,7 +517,7 @@ textarea:focus {
 
 .fun-facts-area {
   position: relative;
-  margin-top: 70px;
+  margin-top: 0px;
   border-radius: 2px;
   background: url(images/about/fun-bg.jpg) no-repeat center center/cover;
 }
